@@ -10,7 +10,7 @@ join countries c on c.country = e.country
 where c.continent like 'Europe'
 and year > 1999 and e.year < 2022
 order by country ;
-
+--tato tabulka se vytvaret vicemene nemusi, ale v zadani je ze mame tabulku vytvorit, tak ji vytvarim
 select 	tst.year,
 		tst.country,
 		tst.hdp, 
